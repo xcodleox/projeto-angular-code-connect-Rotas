@@ -17,7 +17,7 @@ export class AuthService {
         this.estaAutenticado.set(false)
     }
     estaLogado(){
-        return this.estaAutenticado;
+        return this.estaAutenticado();
     }
 
 }
